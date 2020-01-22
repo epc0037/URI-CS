@@ -1,0 +1,6 @@
+student_name = str(input("What is the name of the student?"))
+midterm1 = int(input("Enter the grade of the first exam (0-100)"))
+midterm2 = int(input("Enter the mark of the second exam (0-100)"))
+final = int(input("Enter the grade of the final exam (0-100)"))
+total = (20*(midterm1/100))+(20*(midterm2/100))+(60*(final/100))
+print("The final mark of", student_name, "is", total, "out of 100")
